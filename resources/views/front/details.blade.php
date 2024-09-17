@@ -88,7 +88,7 @@
 					</div>
 				</a>
                 @empty
-                <p>belum ada artikel terbaru lainnya</p>
+                <p>Belum ada artikel terbaru lainnya</p>
                 @endforelse
 			</div>
 			<div class="ads flex flex-col gap-3 w-full">
