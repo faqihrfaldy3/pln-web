@@ -46,8 +46,8 @@
     <section id="Up-to-date" class="max-w-[1130px] mx-auto flex flex-col gap-[30px] mt-[70px]">
         <div class="flex justify-between items-center">
             <h2 class="font-bold text-[26px] leading-[39px]">
-                Latest Hot News <br />
-                Good for Curiousity
+                Lihat Berita Terbaru <br />
+                dari PLN ULP Binjai Barat
             </h2>
             <p class="badge-orange rounded-full p-[8px_18px] bg-[#FFECE1] font-bold text-sm leading-[21px] text-[#FF6B18] w-fit">UP TO DATE</p>
         </div>
@@ -75,8 +75,8 @@
         <div class="flex flex-col text-center gap-[14px] items-center">
             <p class="badge-orange rounded-full p-[8px_18px] bg-[#FFECE1] font-bold text-sm leading-[21px] text-[#FF6B18] w-fit">BEST AUTHORS</p>
             <h2 class="font-bold text-[26px] leading-[39px]">
-                Explore All Masterpieces <br />
-                Written by People
+                Kenal Lebih Dekat dengan <br />
+                PLN ULP Binjai Barat
             </h2>
         </div>
         <div class="grid grid-cols-6 gap-[30px]">
@@ -113,8 +113,8 @@
     <section id="Latest-entertainment" class="max-w-[1130px] mx-auto flex flex-col gap-[30px] mt-[70px]">
         <div class="flex justify-between items-center">
             <h2 class="font-bold text-[26px] leading-[39px]">
-                Latest For You <br />
-                in Entertainment
+                Ada yang Baru, nihh <br />
+                di Kategori Layanan Kita!
             </h2>
             <a href="categoryPage.html" class="rounded-full p-[12px_22px] flex gap-[10px] font-semibold transition-all duration-300 border border-[#EEF0F7] hover:ring-2 hover:ring-[#FF6B18]">Explore All</a>
         </div>
@@ -158,8 +158,8 @@
     <section id="Latest-business" class="max-w-[1130px] mx-auto flex flex-col gap-[30px] mt-[70px]">
         <div class="flex justify-between items-center">
             <h2 class="font-bold text-[26px] leading-[39px]">
-                Latest For You <br />
-                in Business
+                Di Kategori Bisnis <br />
+                Juga Ada yang Baru, nihh!
             </h2>
             <a href="categoryPage.html" class="rounded-full p-[12px_22px] flex gap-[10px] font-semibold transition-all duration-300 border border-[#EEF0F7] hover:ring-2 hover:ring-[#FF6B18]">Explore All</a>
         </div>
@@ -201,8 +201,8 @@
     <section id="Latest-automotive" class="max-w-[1130px] mx-auto flex flex-col gap-[30px] mt-[70px]">
         <div class="flex justify-between items-center">
             <h2 class="font-bold text-[26px] leading-[39px]">
-                Latest For You <br />
-                in Automotive
+                Kategori Kolaborasi juga <br />
+                Ada yang Baru kok!
             </h2>
             <a href="categoryPage.html" class="rounded-full p-[12px_22px] flex gap-[10px] font-semibold transition-all duration-300 border border-[#EEF0F7] hover:ring-2 hover:ring-[#FF6B18]">Explore All</a>
         </div>
@@ -241,8 +241,10 @@
             </div>
         </div>
     </section>
-
 </body>
+
+
+
 @endsection
 	
 @push('after-styles')

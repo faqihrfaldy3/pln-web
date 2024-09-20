@@ -35,7 +35,7 @@ class FrontController extends Controller
         ->first();
 
         $entertainment_articles = ArticleNews::whereHas('category', function ($query) {
-            $query->where('name', 'Entertainment');
+            $query->where('name', 'Layanan');
         })
         ->where('is_featured', 'not_featured')
         ->latest()
@@ -43,14 +43,14 @@ class FrontController extends Controller
         ->get();
 
         $entertainment_featured_articles = ArticleNews::whereHas('category', function ($query) {
-            $query->where('name', 'Entertainment');
+            $query->where('name', 'Layanan');
         })
         ->where('is_featured', 'featured')
         ->inRandomOrder()
         ->first();
 
         $business_articles = ArticleNews::whereHas('category', function ($query) {
-            $query->where('name', 'Business');
+            $query->where('name', 'Bisnis');
         })
         ->where('is_featured', 'not_featured')
         ->latest()
@@ -58,14 +58,14 @@ class FrontController extends Controller
         ->get();
 
         $business_featured_articles = ArticleNews::whereHas('category', function ($query) {
-            $query->where('name', 'Business');
+            $query->where('name', 'Bisnis');
         })
         ->where('is_featured', 'featured')
         ->inRandomOrder()
         ->first();
 
         $automotive_articles = ArticleNews::whereHas('category', function ($query) {
-            $query->where('name', 'Automotive');
+            $query->where('name', 'Kolaborasi');
         })
         ->where('is_featured', 'not_featured')
         ->latest()
@@ -73,7 +73,7 @@ class FrontController extends Controller
         ->get();
 
         $automotive_featured_articles = ArticleNews::whereHas('category', function ($query) {
-            $query->where('name', 'Automotive');
+            $query->where('name', 'Kolaborasi');
         })
         ->where('is_featured', 'featured')
         ->inRandomOrder()
